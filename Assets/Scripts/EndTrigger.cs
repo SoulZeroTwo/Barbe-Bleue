@@ -8,6 +8,8 @@ public class EndTrigger : MonoBehaviour
     [SerializeField] private Animator _door;
     [Header("GameState")]
     [SerializeField] private GameState _gS;
+    [Header("EndManager")]
+    [SerializeField] private GameObject _eM;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,7 @@ public class EndTrigger : MonoBehaviour
         if(_gS.keyObtained && other.gameObject.CompareTag("Player"))
         {
             _door.SetTrigger("trigger");
+            _eM.GetComponent<EndManager>().StartEndScene();
         }
     }
 }
