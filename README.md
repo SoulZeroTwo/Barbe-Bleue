@@ -1,0 +1,1 @@
+Voici un projet que j'ai fait rapidement dans le contexte d'un cours de français. L'objectif était de faire une adaptation du récit "La Barbe bleue" de Charles Perrault. Je me suis dit que c'était un projet assez intéressant pour présenter sur Github, mais ce n'est pas un projet que je voudrais mettre de l'avant dans mon portfolio.
